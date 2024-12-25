@@ -1,5 +1,15 @@
-It's best to follow the Github tutorial before you begin.
-Modified on 12/24/2024 at 3:15pm
-Now it is Wednesday and I want to try again...
-I wonder why the newlines are not showing on github.
-I have to change some configurations as this will not do for a cpp program.
+Here are some additional steps that I had to take that I did not see in my original instructions:
+1. Set Name and email for git as follows:
+git config --global user.name "Your Name"
+git config --global user.email "your_email@example.com"
+2. Make sure the newline is converted if you are working on Windows:
+git config --global core.autocrlf input
+3. First, I staged changes and then did commit and push (to upload changes to github)
+
+The order is:
+clone the repository to make a local copy (best is to use a branch)
+make your changes locally
+save
+stage changes
+commit 
+push
